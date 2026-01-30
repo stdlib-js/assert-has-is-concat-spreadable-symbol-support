@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@deno/mod.js';
+import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@v0.1.0-deno/mod.js';
 ```
 
 #### hasIsConcatSpreadableSymbolSupport()
@@ -71,7 +71,7 @@ var bool = hasIsConcatSpreadableSymbolSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@deno/mod.js';
+import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@v0.1.0-deno/mod.js';
 
 var bool = hasIsConcatSpreadableSymbolSupport();
 if ( bool ) {
