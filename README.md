@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-is-concat-spreadable-symbol-support/tags). For example,
+
+```javascript
 import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@v0.1.0-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var bool = hasIsConcatSpreadableSymbolSupport();
 <body>
 <script type="module">
 
-import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@v0.1.0-esm/index.mjs';
+import hasIsConcatSpreadableSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-is-concat-spreadable-symbol-support@esm/index.mjs';
 
 var bool = hasIsConcatSpreadableSymbolSupport();
 if ( bool ) {
